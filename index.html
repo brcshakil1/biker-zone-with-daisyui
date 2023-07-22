@@ -159,13 +159,27 @@
     <!-- main -->
     <main class="md:container md:mx-auto">
         <!-- features bike -->
-        <section>
-
+        <section class="my-24">
+            <h3 class="text-5xl font-semibold text-center">Featured Bikes In This Year</h3>
+            <p class="underline text-center mb-12 font-semibold"><small class="text-bike-primary">
+                Best bike collection
+            </small></p>
+            <div class="grid  place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-12">
+                <div>
+                    <img class="w-72" src="./images/others/extrabike.png" alt="">
+                </div>
+                <div>
+                    <img class="w-72" src="./images/others/feature-bike.png" alt="">
+                </div>
+                <div>
+                    <img class="w-72" src="./images/others/extrabike.png" alt="">
+                </div>
+            </div>
         </section>
         <!-- latest News -->
         <section class="my-24">
             <h3 class="text-5xl font-semibold text-center mb-12">Latest Bike</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-3  place-items-center">
                 <!-- first card -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
@@ -278,7 +292,7 @@
         <!-- FAQ -->
         <section class="my-24">
             <h3 class="text-5xl font-semibold text-center mb-12">Frequently Asked  <span class="text-bike-primary">Questions</span></h3>
-            <div class="hero min-h-screen ">
+            <div class="hero ">
                 <div class="hero-content lg:gap-24 flex-col lg:flex-row">
                   <img src="/images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg" />
                   <div>
@@ -327,12 +341,21 @@
 
     </main>
     <!-- footer -->
-    <footer class="footer items-center p-4 bg-neutral text-neutral-content">
-        <div class="items-center grid-flow-col">
-
-          <p>Copyright © 2023 - All right reserved</p>
+    <footer class="footer items-center p-4 bg-neutral text-neutral-content px-4 py-8 md:px-20 md:py-8 lg:px-40 lg:py-15">
+        <div class="">
+            <p><a href="">Download Now</a> <span class="pl-3">License</span></p>
+            <nav class="py-3">
+                <a href="">About</a>
+                <a href="" class="px-2.5">Features</a>
+                <a href="" class="px-2.5">Pricing</a>
+                <a href="">Careers</a>
+                <a href="" class="px-2.5">Help</a>
+                <a href="">Privacy Policy</a>
+            </nav>
+          <p>©2023 bikes - All right reserved</p>
         </div> 
-        <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <div class="md:place-self-center md:justify-self-end">
+            <p>Get the App</p>
             <a href=""><img class="w-36" src="./images/others/ios.png" alt=""></a>
             <a href=""><img class="w-36" src="./images/others/android.png" alt=""></a>
         </div>
